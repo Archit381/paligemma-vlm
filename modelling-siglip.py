@@ -31,7 +31,7 @@ class SiglipVisionConfig:
         self.attention_dropout = attention_dropout
         self.num_image_tokens = num_image_tokens
 
-
+ 
 class SiglipVisionEmbeddings(nn.Module):
     def __init__(self, config: SiglipVisionConfig):
         super.__init__()
