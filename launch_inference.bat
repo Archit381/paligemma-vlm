@@ -1,7 +1,7 @@
 @echo off
 set MODEL_PATH=C:\Users\Archit\Desktop\VLM\paligemma-3b-pt-224
 set PROMPT=describe this image
-set IMAGE_FILE_PATH=testing_img.jpeg
+set IMAGE_FILE_PATH=assets\paligemma_architecture.png
 set MAX_TOKENS_TO_GENERATE=100
 set TEMPERATURE=0.8
 set TOP_P=0.9
